@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\haokee\\HaokeeEncoder\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A67DE9A9-5602-4B7A-AFA2-0EBB95FFDB68}|HaokeeEncoder\\HaokeeEncoder.csproj|c:\\haokee\\haokeeencoder\\haokeeencoder\\haokeeencoder.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{A67DE9A9-5602-4B7A-AFA2-0EBB95FFDB68}|HaokeeEncoder\\HaokeeEncoder.csproj|solutionrelative:haokeeencoder\\haokeeencoder.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A67DE9A9-5602-4B7A-AFA2-0EBB95FFDB68}|HaokeeEncoder\\HaokeeEncoder.csproj|c:\\haokee\\haokeeencoder\\haokeeencoder\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A67DE9A9-5602-4B7A-AFA2-0EBB95FFDB68}|HaokeeEncoder\\HaokeeEncoder.csproj|solutionrelative:haokeeencoder\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -39,19 +43,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "HaokeeEncoder",
+              "DocumentMoniker": "C:\\haokee\\HaokeeEncoder\\HaokeeEncoder\\HaokeeEncoder.csproj",
+              "RelativeDocumentMoniker": "HaokeeEncoder\\HaokeeEncoder.csproj",
+              "ToolTip": "C:\\haokee\\HaokeeEncoder\\HaokeeEncoder\\HaokeeEncoder.csproj",
+              "RelativeToolTip": "HaokeeEncoder\\HaokeeEncoder.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-19T06:05:00.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\haokee\\HaokeeEncoder\\HaokeeEncoder\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "HaokeeEncoder\\MainWindow.xaml.cs",
               "ToolTip": "C:\\haokee\\HaokeeEncoder\\HaokeeEncoder\\MainWindow.xaml.cs",
               "RelativeToolTip": "HaokeeEncoder\\MainWindow.xaml.cs",
-              "ViewState": "AgIAANQAAAAAAAAAAAAswNkAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAANQAAAAAAAAAAAAswOgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-19T01:56:48.433Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\haokee\\HaokeeEncoder\\HaokeeEncoder\\MainWindow.xaml",
               "RelativeDocumentMoniker": "HaokeeEncoder\\MainWindow.xaml",
@@ -63,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\haokee\\HaokeeEncoder\\HaokeeEncoder\\App.xaml.cs",
               "RelativeDocumentMoniker": "HaokeeEncoder\\App.xaml.cs",
@@ -75,7 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "App.xaml",
               "DocumentMoniker": "C:\\haokee\\HaokeeEncoder\\HaokeeEncoder\\App.xaml",
               "RelativeDocumentMoniker": "HaokeeEncoder\\App.xaml",

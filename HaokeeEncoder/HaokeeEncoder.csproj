@@ -15,6 +15,8 @@
     <WindowsPackageType>None</WindowsPackageType>
 	<!--  不打包  -->
 	<WindowsAppSDKSelfContained>true</WindowsAppSDKSelfContained>
+	<AssemblyVersion>1.0.1</AssemblyVersion>
+	<FileVersion>1.0.1</FileVersion>
 	<!--  自包含 Windows App SDK Runtime，否则需要单独安装  -->
   </PropertyGroup>
   <ItemGroup>
