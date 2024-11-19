@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "HaokeeEncoder (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "HaokeeEncoder (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

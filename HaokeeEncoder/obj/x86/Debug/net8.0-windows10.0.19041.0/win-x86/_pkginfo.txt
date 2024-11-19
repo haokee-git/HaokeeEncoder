@@ -1,0 +1,1 @@
+C:\haokee\HaokeeEncoder\HaokeeEncoder\bin\x86\Debug\net8.0-windows10.0.19041.0\win-x86\AppPackages\HaokeeEncoder_1.0.0.0_x86_Debug_Test\HaokeeEncoder_1.0.0.0_x86_Debug.msix
