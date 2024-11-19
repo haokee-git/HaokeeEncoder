@@ -1,1 +1,0 @@
-C:\haokee\HaokeeEncoder\HaokeeEncoder\HaokeeEncoder.csproj;x86

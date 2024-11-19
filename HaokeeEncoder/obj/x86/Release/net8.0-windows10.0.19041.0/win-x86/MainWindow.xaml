@@ -12,12 +12,12 @@
     <Grid>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
             <TextBlock Text="运行方式" Width="200" Margin="10" HorizontalAlignment="Left"/>
-            <ComboBox x:ConnectionId='2' x:Name="OperationSelector" Width="200" Margin="10">
+            <ComboBox x:ConnectionId='2' x:Name="OperationSelector" Width="200" Margin="10" ToolTipService.ToolTip="选择程序执行的内容，为编码/解码">
                 <ComboBoxItem Content="编码" IsSelected="True"/>
                 <ComboBoxItem Content="解码"/>
             </ComboBox>
             <TextBlock Text="编码方式" Width="200" Margin="10" HorizontalAlignment="Left"/>
-            <ComboBox x:ConnectionId='3' x:Name="EncodingSelector" Width="200" Margin="10">
+            <ComboBox x:ConnectionId='3' x:Name="EncodingSelector" Width="200" Margin="10" ToolTipService.ToolTip="选择想要进行的编/解码方式">
                 <ComboBoxItem Content="Base64" IsSelected="True"/>
                 <ComboBoxItem Content="Base32"/>
                 <ComboBoxItem Content="Base58"/>
@@ -26,16 +26,15 @@
                 <ComboBoxItem Content="Quoted-Printable"/>
             </ComboBox>
             <TextBlock Text="输入" Width="200" Margin="10" HorizontalAlignment="Left"/>
-            <TextBox x:ConnectionId='4' x:Name="Input" Width="200" Margin="10" PlaceholderText="输入" AcceptsReturn="True" Height="100" TextWrapping="Wrap"/>
+            <TextBox x:ConnectionId='4' x:Name="Input" Width="200" Margin="10" PlaceholderText="输入文本框，可换行" AcceptsReturn="True" Height="100" TextWrapping="Wrap"/>
             <Button x:ConnectionId='5' x:Name="PasteButton" Width="120" Margin="10"                            ToolTipService.ToolTip="将剪切板内的内容粘贴到输入框">从剪切板粘贴</Button>
             <TextBlock Text="输出" Width="200" Margin="10" HorizontalAlignment="Left"/>
-            <TextBox x:ConnectionId='6' x:Name="Output" Width="200" Margin="10" PlaceholderText="输出" AcceptsReturn="True" Height="100" TextWrapping="Wrap"/>
-            <Button x:ConnectionId='7' x:Name="CopyButton" Width="120" Margin="10"                         ToolTipService.ToolTip="将输出框内的内容复制到剪切板">复制到剪切板</Button>
+            <TextBox x:ConnectionId='6' x:Name="Output" Width="200" Margin="10" PlaceholderText="输出文本框，只读" IsReadOnly="True" AcceptsReturn="True" Height="100" TextWrapping="Wrap"/>
+            <Button x:ConnectionId='7' x:Name="CopyButton" Width="120" Margin="20"                         ToolTipService.ToolTip="将输出框内的内容复制到剪切板">复制到剪切板</Button>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                 <Button x:ConnectionId='8' x:Name="CodingButton" Width="100" Margin="10"                     ToolTipService.ToolTip="按照给定的方式处理输入文本并输出">处理</Button>
                 <Button x:ConnectionId='9' x:Name="SwapButton" Width="100" Margin="10"                   ToolTipService.ToolTip="交换输入输出框内的内容">交换</Button>
             </StackPanel>
-            <TextBlock Text="Made By Haokee" Width="200" Margin="10" HorizontalAlignment="Center"/>
         </StackPanel>
     </Grid>
 </Window>

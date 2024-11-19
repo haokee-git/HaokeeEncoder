@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HaokeeEncoder")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a33d98bfb8691a2c2f4ea5eb7818d7a1cc366d0d")]
 [assembly: System.Reflection.AssemblyProductAttribute("HaokeeEncoder")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HaokeeEncoder")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
